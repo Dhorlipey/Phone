@@ -87,14 +87,18 @@
   box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.screen-view {
-  display: flex;
+.screen-view , #screenview{
+  outline: 0;
+ opacity: 0;
+  cursor: pointer;
+ display: flex;
   flex: 1;
   margin: 0.6em;
   border-radius: 2em;
   overflow: hidden;
   position: relative;
   width: 100%;
+  padding: 0 1em;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -111,7 +115,10 @@
   align-items: center;
   column-gap: 0.5em;
 }
-
+.top-icons img{
+  width: 50px;
+  color: whitesmoke;
+}
 .screen-buttons {
   bottom: 7px;
   width: 140px;
@@ -119,4 +126,16 @@
   background-color: #f2f2f2;
   border-radius: 10px;
   position: absolute;
+}
+.screen-icons img{
+  width: 50px;
+}
+.screen-icons{
+  display: flex;
+    column-gap: 2.9em;
+    row-gap: 2em;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 60px;
+    justify-content: center;
 }

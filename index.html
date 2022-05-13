@@ -11,6 +11,7 @@
 <body>
   <div>
     <div class="container">
+      <!-- Phone 1 -->
       <div class="phone-wrapper">
         <div class="phone">
           <div class="screen">
@@ -27,6 +28,7 @@
           </div>
         </div>
       </div>
+      <!-- Phone 2 -->
       <div class="phone-wrapper">
         <div class="phone">
           <div class="screen">
@@ -37,12 +39,25 @@
                 <div class="front-camera"></div>
               </div>
             </div>
-            <div class="screen-view">
+            <div class="screen-view" id="screenview" role="button" onclick="phoneOn()">
+              <div class="top-icons">
+                <img src="battery.svg" alt="" srcset="">
+                <img src="signal.svg" alt="" srcset="">
+              </div>
+              <div class="screen-icons">
+                <img src="contacts.svg" alt="">
+                <img src="console.svg" alt="">
+                <img src="telephone.svg" alt="">
+                <img src="message.svg" alt="">
+                <img src="email.svg" alt="">
+                <img src="photo.svg" alt="">
+              </div>
               <div class="screen-buttons"></div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Phone 3 -->
       <div class="phone-wrapper">
         <div class="phone">
           <div class="screen">
@@ -54,6 +69,7 @@
               </div>
             </div>
             <div class="screen-view">
+
               <div class="screen-buttons"></div>
             </div>
           </div>
@@ -61,6 +77,7 @@
       </div>
     </div>
   </div>
+  <script src="app.js"></script>
 </body>
 
 </html>
